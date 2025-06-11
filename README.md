@@ -31,3 +31,25 @@ I am embarking on this ZeroToMastery course on RAG for LLMs because I recognize 
 - `Conquer Procrastination and Cultivate Discipline:` This course is also an opportunity to break my cycle of procrastination. By consistently showing up, putting in the work, and seeing this through to completion, I am not only gaining technical expertise but also building the self-discipline and persistence essential for any long-term success, especially in a field that demands continuous learning.
 
 I commit to showing up, learning diligently, and actively applying what I learn, because the future I envision for myself in AI is not a distant dream, but a direct result of the effort I invest, starting today, and every day forward.
+
+### Using Jupyter from VSCode
+
+```bash
+abhis@Tinku MINGW64 ~/Desktop/AIEngineering/RAG_For_LLMs (main)
+$ uv init .
+Initialized project `rag-for-llms` at `C:\Users\abhis\Desktop\AIEngineering\RAG_For_LLMs`
+
+abhis@Tinku MINGW64 ~/Desktop/AIEngineering/RAG_For_LLMs (main)
+$ uv add --dev ipykernel
+Using CPython 3.12.0
+Creating virtual environment at: .venv
+...
+..
+.
+
+# you can include pip in your project's virtual environment by running
+#  uv venv --seed prior to starting the Jupyter server
+uv venv --seed
+uv add --dev uv
+# you can use !uv add pydantic in jupyter notebook to add pydantic to the project's dependencies
+```

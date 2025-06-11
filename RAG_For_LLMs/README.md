@@ -14,3 +14,5 @@ Your notes are not a performance; they are your personal scaffolding for underst
 - Read Offline Notes first.
 
 - `stepOne.ipynb` : Tokenization and pre-processing & `practicalTips`
+- `use this command to install libraries in our jupyter notebooks` - `!uv add requests`
+- OpenAI Tokenizer & [Gemini Token counting](https://ai.google.dev/gemini-api/docs/tokens?lang=python)

@@ -1,0 +1,16 @@
+[project]
+name = "rag-for-llms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.11.5",
+    "requests>=2.32.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "uv>=0.7.12",
+]
